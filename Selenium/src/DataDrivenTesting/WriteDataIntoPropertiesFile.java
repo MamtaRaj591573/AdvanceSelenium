@@ -14,7 +14,7 @@ public class WriteDataIntoPropertiesFile
 		pro.load(fis);
 		pro.put("os","windows");
 		FileOutputStream fos=new FileOutputStream("./TestResources/commondata.properties");
-		pro.store(fos, "updated successfully");
+		pro.store(fos, "updated successfully from github");
 
 	}
 
